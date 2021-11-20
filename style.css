@@ -7,6 +7,7 @@
     min-height: 100vh;
     max-width:100%;
     height: auto;
+    object-fit: cover;
     background-image: linear-gradient(rgba(94, 4, 4, 0.7),rgba(30, 69, 121, 0.7)),url(images/org1.jpg);
     background-position: center;
     background-size: 100% 100%;
@@ -15,6 +16,43 @@
     overflow: hidden;
     
 }
+.animated {
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*
+ * FadeIn animation
+*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+/*
+ * FadeOut animation
+*/
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
 
 
 
@@ -25,7 +63,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 70px;
+    width: 110px;
     border-radius: 80%;
     
 }
@@ -255,6 +293,7 @@ h3{
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
+    width:fit-content;
 }
 .testimonial-col p{
     padding: 0;
