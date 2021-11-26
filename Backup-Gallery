@@ -1,0 +1,291 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IEDC SNGCE</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4D03AQGu-nVj0EvpnQ/profile-displayphoto-shrink_400_400/0/1634655226997?e=1642636800&v=beta&t=4hwMLVI_qdSXotJ_PTjWGLADzEjVnaR4ELvJoHh5vJo" type="image/icon type">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="animate__animated animate__heartBeat animate__infinite	infinite">
+                <a href="index.html"><img src="images/logo1.jpg" alt="Avatar of SNGCE IEDC BOOTCAMP" ></a>
+                </div>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>GALLERY</h1> 
+<br><br><br>
+    </section>
+
+    <div class="container-fluid">
+
+        <div class="row mt-4">
+          
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0044_resize_55.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0044_resize_55.jpg" width="100%" height="100%">
+            </a>
+          </div>
+      
+         <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0047_resize_84.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0047_resize_84.jpg" width="100%" height="100%">
+            </a>
+          </div>
+      
+         <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0048_resize_49.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0048_resize_49.jpg" width="100%" height="100%">
+            </a>
+          </div>
+      
+         <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0049_resize_54.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0049_resize_54.jpg" width="100%" height="100%">
+            </a>
+          </div>
+      
+         <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0050_resize_16.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0050_resize_16.jpg" width="100%" height="100%">
+            </a>
+          </div>
+      
+         <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0051_resize_31.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0051_resize_31.jpg" width="100%" height="100%">
+            </a>
+
+
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0053_resize_29.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0053_resize_29.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0052_resize_90.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0052_resize_90.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic8.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic8.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic613.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic613.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic6.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic6.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic5.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic5.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic46.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic46.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic4.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic4.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic30.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic30.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic3.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic3.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE Pic10.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE Pic10.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (9).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (9).jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (7).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (7).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (6).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (6).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (5).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (5).jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (4).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (4).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (3).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (3).jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (2).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (2).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (1).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (1).jpg" width="100%" height="100%">
+            </a>
+          </div> 
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (16).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (16).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (15).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (15).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (14).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (14).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (13).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (13).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (12).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (12).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+             <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IMG-20211118-WA0050_resize_16.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IMG-20211118-WA0050_resize_16.jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (11).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (11).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="images/IEDC-SNGCE (10).jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="images/IEDC-SNGCE (10).jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+
+
+               </div>
+         
+       </div>
+        
+      
+        
+      </body>
+
+
+    
+
+    
+
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>"The Innovation and Entrepreneurship Development Cell (IEDC) is an active student-run cell that works closely with kerala start up mission and other student clubs."</p>
+        <div class="icons">
+               <a href="https://www.facebook.com/iedc.sngce/"><i class="fa fa-facebook"></i></a>
+            <a href="https://youtube.com/channel/UCDizRVRxQ5o14BFZInimp6A"><i class="fa fa-youtube"></i></a>
+            <a href="https://instagram.com/iedc_sngce?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/iedc-sngce-259753223"><i class="fa fa-linkedin"></i></a>
+          <br>   <small>&copy; Copyright 2021, Geever & Justin, All rights reserved </small> 
+        </div>
+
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
