@@ -540,7 +540,15 @@ h3{
 
 
 
-
+  #popup {
+            display:none;
+            position:absolute;
+            margin:0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+    }
 
 
 
