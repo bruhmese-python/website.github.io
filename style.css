@@ -9,7 +9,6 @@
     height: auto;
     object-fit: cover;
     background-image: linear-gradient(rgba(94, 4, 4, 0.7),rgba(30, 69, 121, 0.7)), url(images/org1.jpg);
-
     background-position: center;
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -44,9 +43,6 @@
     --animate-delay: 0.9s;
   }
   
-
-
-
 nav{
     display: flex;
     padding: 1% 2%;
@@ -58,8 +54,6 @@ nav img{
     border-radius: 80%;
     
 }
-
-
 .nav-links{
     flex: 1;
     text-align: right;
@@ -90,7 +84,6 @@ nav img{
 nav .fa{
     display: none;
 }
-
 .text-box{
     width: 90%;
     color: #fff;
@@ -120,13 +113,10 @@ nav .fa{
     cursor: pointer;
     transition: 1s;
 }
-
 .hero-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
 }
-
-
 @media(max-width: 700px)
 {
    .nav-links ul li
@@ -159,9 +149,7 @@ nav .fa{
         font-size: 20px;
     }
 }
-
 /*---------- course --------*/
-
 .Home{
     width: 80%;
     margin: auto;
@@ -202,15 +190,12 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-
 @media (max-width:700px){
     .row{
         flex-direction: column;
     }
 } 
-
 /*---------------- campus ----------------*/
-
 .campus{
     width: 80%;
     margin: auto;
@@ -227,7 +212,6 @@ h3{
 .campus-col img{
     width: 100%;
 }
-
 .layer{
     background: transparent;
     height: 100%;
@@ -256,19 +240,14 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
 /*-------------- Facilities ----------------*/
-
-
 /*---------------- testimonials ------------------*/
-
 .testimonials{
     width: 80%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
 }
-
 .testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;
@@ -296,17 +275,13 @@ h3{
 .testimonial-col .fa{
     color: #f44336;
 }
-
 @media(max-width:700px){
     .testimonial-col img{
         margin-left: 0px;
         margin-right: 15px;
     }
 }
-
 /*-------- Call To Action ----------*/
-
-
 .cta{
     margin: 100px auto;
     width: 80%;
@@ -322,15 +297,12 @@ h3{
     margin-bottom: 40px; 
     padding: 0; 
 }
-
 @media(max-width:700px){
     .cta h1{
         font-size: 24px;
     }
 }
-
 /*--------------Footer---------------*/
-
 .footer{
     width: 100%;
     text-align: center;
@@ -341,7 +313,6 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
-
 .icons .fa{
     color: #f44336;
     margin: 0 13px;
@@ -351,11 +322,7 @@ h3{
 .fa-heart-o{
     color: #f44336;
 }
-
-
 /*--------------- About Us Page --------------*/
-
-
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -374,7 +341,6 @@ h3{
     padding-top: 80px;
     padding-bottom: 50px;
 }
-
 .about-col{
     flex-basis: 48%;
     padding: 30px 2px;
@@ -385,7 +351,6 @@ h3{
 .about-col p{
     padding: 15px 0 25px;
 }
-
 .hero-btn.red-btn{
     border: 1px solid #f44336;
     background: transparent;
@@ -408,9 +373,7 @@ h3{
 .about-col img{
     width: 100%;
 }
-
 /*---------- Blog Page -------------*/
-
 .blog-content{
     width: 80%;
     margin: auto;
@@ -434,7 +397,6 @@ h3{
     color: #999;
     padding: 0;
 }
-
 .blog-right h3{
     background: #0e0d0d;
     color: #fff;
@@ -450,13 +412,11 @@ h3{
     padding: 8px;
     box-sizing: border-box;
 }
-
 .comment-box{
     border: 1px solid #ccc;
     margin: 50px 0;
     padding: 10px 20px;
 }
-
 .comment-box h3{
     text-align: left;
 }
@@ -472,17 +432,12 @@ h3{
 .comment-form button{
     margin: 10px 0;
 }
-
-
 @media (max-width:700px){
     .sub-header h1{
         font-size: 24px;
     }
 } 
-
-
 /*------- Contact Us Page ------------*/
-
 .location{
     width: 80%;
     margin: auto;
@@ -491,7 +446,6 @@ h3{
 .location iframe{
     width: 100%;
 }
-
 .contact-us{
     width: 80%;
     margin: auto;
@@ -500,13 +454,11 @@ h3{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
-
 .contact-col div{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
-
 .contact-col div .fa{
     font-size: 28px;
     color: hsl(0, 6%, 6%);
@@ -531,11 +483,27 @@ h3{
     outline: none;
     border: 1px solid #ccc;
 }
-
 .footer-link{
     text-decoration: none;
     color: #777;
 }
 /*events starts here*/
+
+
+
+  #popup {
+            display:none;
+            position:absolute;
+            margin:0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+    }
+
+
+
+
+
 
 
